@@ -432,7 +432,7 @@ nav a:last-child:hover {
    /* height:750px; */
    position: relative;
    height: auto;
-   padding:60px 0 100px;
+   padding:60px 0 120px;
   }
 
    /* padding:50px 0 0; */
@@ -518,8 +518,7 @@ nav a:last-child:hover {
   width: 90%;
   max-width: 360px;
 
-  margin: 0 auto;
-  transform: translateY(35%); /* 👈 was 50%, now tighter */
+  margin: -80px auto 0; /* 👈 MAIN FIX */
 
   padding: 18px;
   border-radius: 12px;
@@ -570,7 +569,7 @@ nav a:last-child:hover {
   } */
 
   .hero-stats{
-  margin-top:80px;
+  margin-top: 40px; 
   padding-top:40px;
   padding-bottom:10px;
 
