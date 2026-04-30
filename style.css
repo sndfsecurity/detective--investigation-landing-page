@@ -428,11 +428,11 @@ nav a:last-child:hover {
 
   .hero{
     
-   padding:50px 0 0;
+   /* padding:50px 0 0; */
    /* height:750px; */
    position: relative;
    height: auto;
-   
+    padding:60px 0 40px;
   }
 
   .hero-content{
@@ -495,20 +495,31 @@ nav a:last-child:hover {
     margin-top: 0;
   } */
 
-   .hero-card{
-    position:relative; /* ✅ no absolute */
+   /* .hero-card{
+    position:relative; 
     top:auto;
     bottom:auto;
 
     width:90%;
     max-width:360px;
 
-    margin:25px auto 0; /* ✅ adds top spacing */
+    margin:25px auto 0; 
     
-    padding:18px 16px; /* ✅ reduced white space */
+    padding:18px 16px;
     
     border-radius:12px;
-  }
+  } */
+
+  .hero-card{
+  position:relative;
+  width:90%;
+  max-width:360px;
+
+  margin:30px auto -60px; /* 👈 MAGIC */
+  padding:18px;
+
+  border-radius:12px;
+}
 
   .hero-card h3{
     font-size:16px;
@@ -540,17 +551,26 @@ nav a:last-child:hover {
 
  
   /* 🔥 STATS PERFECT GRID */
-  .hero-stats{
+  /* .hero-stats{
     display:grid;
     grid-template-columns:repeat(2,1fr);
-    /* gap:18px; */
     margin-top:140px;
     padding-bottom:10px;
     padding-top:165px;
     column-gap:10px;
     row-gap:12px;
     align-items:start;
-  }
+  } */
+
+  .hero-stats{
+  margin-top:80px; /* balanced spacing */
+  padding-top:40px;
+  padding-bottom:10px;
+
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:14px;
+}
 
   .hero-stats h3{
     font-size:20px;
