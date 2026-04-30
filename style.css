@@ -510,15 +510,18 @@ nav a:last-child:hover {
     border-radius:12px;
   } */
 
-  .hero-card{
+ .hero-card{
   position:relative;
   width:90%;
   max-width:360px;
 
-  margin:30px auto -60px; /* 👈 MAGIC */
-  padding:18px;
+  margin:40px auto -80px; /* 👈 KEY LINE */
 
+  padding:18px;
   border-radius:12px;
+
+  background:#fff;
+  box-shadow:0 10px 30px rgba(0,0,0,0.08);
 }
 
   .hero-card h3{
