@@ -175,7 +175,7 @@ nav a:last-child:hover {
   }
 
   .brand h2{
-    font-size:30px;
+    font-size:27px;
     line-height:1.2;
   }
 
@@ -190,7 +190,7 @@ nav a:last-child:hover {
 @media (max-width: 360px){
 
   .brand h2{
-    font-size:20px;
+    font-size:27px;
   }
 
   .brand img{
