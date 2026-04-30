@@ -515,7 +515,7 @@ nav a:last-child:hover {
   width:90%;
   max-width:360px;
 
-  margin:40px auto -80px; /* 👈 KEY LINE */
+  margin:0px auto -80px; /* 👈 KEY LINE */
 
   padding:18px;
   border-radius:12px;
@@ -566,7 +566,7 @@ nav a:last-child:hover {
   } */
 
   .hero-stats{
-  margin-top:80px; /* balanced spacing */
+  margin-top:100px; /* balanced spacing */
   padding-top:40px;
   padding-bottom:10px;
 
