@@ -429,8 +429,9 @@ nav a:last-child:hover {
   .hero{
     
    padding:50px 0 0;
-   height:750px;
+   /* height:750px; */
    position: relative;
+   height: auto;
    
   }
 
@@ -477,21 +478,36 @@ nav a:last-child:hover {
    
   } */
 
-    .hero-card{
+    /* .hero-card{
     position:absolute;
     left:0;
     right:0;
-    margin:auto; /* 👈 THIS centers properly */
+    margin:auto; 
     
-    bottom:-145px; /* 👈 pushes into white section */
+    bottom:-145px; 
     
     width:90%;
     max-width:360px;
     padding:20px;
     padding-bottom:60px;
     top: 115px;
-    transform:none; /* ❌ REMOVE translate */
+    transform:none; 
     margin-top: 0;
+  } */
+
+   .hero-card{
+    position:relative; /* ✅ no absolute */
+    top:auto;
+    bottom:auto;
+
+    width:90%;
+    max-width:360px;
+
+    margin:25px auto 0; /* ✅ adds top spacing */
+    
+    padding:18px 16px; /* ✅ reduced white space */
+    
+    border-radius:12px;
   }
 
   .hero-card h3{
