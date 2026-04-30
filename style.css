@@ -432,8 +432,11 @@ nav a:last-child:hover {
    /* height:750px; */
    position: relative;
    height: auto;
-    padding:60px 0 40px;
+     padding:60px 0 120px;
   }
+
+   /* padding:50px 0 0; */
+   /* height:750px; */
 
   .hero-content{
     padding-bottom:0;
@@ -515,15 +518,15 @@ nav a:last-child:hover {
   width:90%;
   max-width:360px;
 
-  margin:0px auto -80px; /* 👈 KEY LINE */
+  margin:0 auto;
+  transform:translateY(50%); /* 👈 PERFECT CENTER SPLIT */
 
   padding:18px;
   border-radius:12px;
 
   background:#fff;
-  box-shadow:0 10px 30px rgba(0,0,0,0.08);
+  box-shadow:0 12px 35px rgba(0,0,0,0.12);
 }
-
   .hero-card h3{
     font-size:16px;
   }
@@ -566,7 +569,7 @@ nav a:last-child:hover {
   } */
 
   .hero-stats{
-  margin-top:100px; /* balanced spacing */
+    margin-top:120px;
   padding-top:40px;
   padding-bottom:10px;
 
