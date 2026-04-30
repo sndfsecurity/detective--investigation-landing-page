@@ -1472,11 +1472,12 @@ nav a:last-child:hover {
     line-height: 1.3;
   }
 
-  .cta-text{
+   .contact-content .cta-text {
     font-size: 15px;
-    line-height: 1.3;
+    line-height: 1.4;
     margin-top: 15px;
   }
+
 
   .trust-points{
     font-size: 14px;
@@ -1500,9 +1501,9 @@ nav a:last-child:hover {
     padding: 20px;
   }
 
-  .cta-text{
+  .contact-content .cta-text {
     font-size: 15px;
-    line-height: 1.3;
+    line-height: 1.4;
     margin-top: 15px;
   }
 }
